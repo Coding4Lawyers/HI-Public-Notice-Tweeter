@@ -1,0 +1,5 @@
+/.idea
+/__pycache__
+/venv
+notices.csv
+twitter_passwords.py
