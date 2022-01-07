@@ -5,10 +5,14 @@
 ```
 git clone git@github.com:Coding4Lawyers/HI-Public-Notice-Tweeter.git
 cd HI-Public-Notice-Tweeter
+```
+Move over manually or modify the twitter passwords file with the real passwords.
+The file should be named ``` twitter_passwords.py```
+```
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-python main.py
+python public_notice_tweet.py
 ```
 ## Cronjob
 ```
